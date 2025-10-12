@@ -48,7 +48,7 @@ volumes:
 ### Allowing network traffic on Oracle Cloud for port "5678"
 
 Allowed network traffic to port 5678 of my cloud server 
-![Allowed traffic on port 5678 oracle cloud](images/OracleCloudTraffic)
+![Allowed traffic on port 5678 oracle cloud](images/OracleCloudTraffic.png)
 
 ### Accessing n8n from local machine
 Since n8n was installed on my cloud machine which running ubuntu server cli, after exposing the port to public I accessed the n8n with <server public ip address>:5678 which worked.

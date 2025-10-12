@@ -56,4 +56,9 @@ Since n8n was installed on my cloud machine which running ubuntu server cli, aft
 
 ### Creating the workflow
 The workflow basic structure is constructed with two triggers which are for the "Check in" and "Check out" times so when it reaches the specified time and day it would run the workflow
+![n8n workflow](images/workflow.png)
+
+**What needs to be done in telegram to allow n8n to comminucate with:**
+1. Create a Telegram Bot (refer to: [Create a telegram bot](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#create-a-telegram-bot-and-get-a-bot-token))
+2. Add it to the relevant group for the message
 

@@ -41,10 +41,10 @@ environment:
 - N8N_SECURE_COOKIE=false
 volumes:
 - /home/ubuntu/n8n_data:/home/node/.n8n
-
+```
 - n8n installed in docker container
 - running on port 5678
-```
+
 ### Allowing network traffic on Oracle Cloud for port "5678"
 
 Allowed network traffic to port 5678 of my cloud server 

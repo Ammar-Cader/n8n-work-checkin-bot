@@ -24,7 +24,7 @@ Credits to:[NetworkChuck](https://youtu.be/ONgECvZNI3o?si=IsbIltj83qwWUSsV)
 
 Started by installing n8n in a docker container with the following docker-compose.yaml:
 
-'''yaml
+```yaml
 version: "3.8"
 services:
 n8n:
@@ -40,11 +40,11 @@ environment:
 - NODE_ENV=production
 - N8N_SECURE_COOKIE=false
 volumes:
-- /home/ubuntu/n8n_data:/home/node/.n8n'''
+- /home/ubuntu/n8n_data:/home/node/.n8n
 
--n8n installed in docker container
--running on port 5678
-
+- n8n installed in docker container
+- running on port 5678
+```
 ### Allowing network traffic on Oracle Cloud for port "5678"
 
 Allowed network traffic to port 5678 of my cloud server 

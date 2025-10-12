@@ -61,5 +61,6 @@ The workflow basic structure is constructed with two triggers which are for the 
 **What needs to be done to allow n8n to communicate with telegram:**
 1. Create a Telegram Bot (refer to: [Create a telegram bot](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#create-a-telegram-bot-and-get-a-bot-token))
 2. Add it to the relevant group for the message
-3. Get message ID for the relevant group to receive the automated message(refer to: [getting message ID](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#get-chat-id-for-a-group-chat))
+3. Get GROUP CHAT ID for the relevant group to receive the automated Clock-in/Clock-out message(refer to: [getting GROUP ID](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#get-chat-id-for-a-group-chat))
 
+This resource can be used for getting Chat ID whether it is a group or any other chat method but the bot needs to be already in the required chat: (https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#get-chat-id-for-a-group-chat) 

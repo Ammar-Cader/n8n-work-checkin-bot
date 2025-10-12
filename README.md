@@ -12,11 +12,11 @@ Credits to:[NetworkChuck](https://youtu.be/ONgECvZNI3o?si=IsbIltj83qwWUSsV)
 - Skip holidays via AI commands
 
 ## My Setup/Prerequisite
--n8n installed in docker container
--Oracle free tier machine 1gb RAM
--Ubuntu Server
--Docker installed
--A method to expose to public
+- n8n installed in docker container
+- Oracle free tier machine 1gb RAM
+- Ubuntu Server
+- Docker installed
+- A method to expose to public
 
 ## Process
 

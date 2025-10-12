@@ -67,8 +67,11 @@ This resource can be used for getting Chat ID whether it is a group or any other
 
 **n8n workflow
 1. Started by creating a workflow then adding a "Schedule Trigger" with following rules.
+
 ![schedule trigger](images/7amTrigger.png)
+
 2. Then by adding a telegram "Send text message" the job is done. this node with rules added and with the api also to make the comunication possible.
+
 ![schedule trigger](images/TelegramNode.png)
 
 Now since the clock in process was done the clockout autnomation didnt have much to do after just duplicating the "Clock-in" process. Just few changes such as the trigger's time changed to the "Clock-out" time and also in telegram "Send text message" node the clock in message was changed to the clockout message.

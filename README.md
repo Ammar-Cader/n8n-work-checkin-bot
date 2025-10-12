@@ -64,3 +64,12 @@ The workflow basic structure is constructed with two triggers which are for the 
 3. Get GROUP CHAT ID for the relevant group to receive the automated Clock-in/Clock-out message(refer to: [getting GROUP ID](https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#get-chat-id-for-a-group-chat))
 
 This resource can be used for getting Chat ID whether it is a group or any other chat method but the bot needs to be already in the required chat: (https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#get-chat-id-for-a-group-chat) 
+
+**n8n workflow
+1. Started by creating a workflow then adding a "Schedule Trigger" with following rules.
+![schedule trigger](images/7amTrigger.png)
+2. Then by adding a telegram "Send text message" the job is done. this node with rules added and with the api also to make the comunication possible.
+![schedule trigger](images/TelegramNode.png)
+
+Now since the clock in process was done the clockout autnomation didnt have much to do after just duplicating the "Clock-in" process. Just few changes such as the trigger's time changed to the "Clock-out" time and also in telegram "Send text message" node the clock in message was changed to the clockout message.
+ 

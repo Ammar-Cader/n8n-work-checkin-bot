@@ -65,7 +65,7 @@ The workflow basic structure is constructed with two triggers which are for the 
 
 This resource can be used for getting Chat ID whether it is a group or any other chat method but the bot needs to be already in the required chat: (https://gist.github.com/nafiesl/4ad622f344cd1dc3bb1ecbe468ff9f8a#get-chat-id-for-a-group-chat) 
 
-**n8n workflow
+**n8n workflow**
 1. Started by creating a workflow then adding a "Schedule Trigger" with following rules.
 
 ![schedule trigger](images/7amTrigger.png)
